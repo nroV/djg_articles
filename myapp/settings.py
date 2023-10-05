@@ -25,7 +25,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT = os.path.join(BASE_DIR , 'staticfiles')
   
 # Extra places for collectstatic to find static files.
-SECRET_KEY = os.environ.get("SECRET_KEY")
+# SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = 'django-insecure-+v7!mz^!94rod3qnxg@xniy4zn1pp=t=n84z@%ez13!kza'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
