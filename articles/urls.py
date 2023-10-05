@@ -32,7 +32,7 @@ urlpatterns = [
    
    path('category/',views.Categories.as_view(),name="category"),
       path('category/<int:pk>/',views.CategoriesRUD.as_view(),name="category-v2"),
-      
+         path('category/article',views.CategoriesRUD.as_view(),name="category-v2"),
       
       
          #this is comment routes
